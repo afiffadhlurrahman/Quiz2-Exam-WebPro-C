@@ -1,0 +1,44 @@
+﻿@page
+@model quiz2.Pages.CarList.CreateModel
+
+<br />
+<h2 class="text-info">Create New Car</h2>
+<br />
+
+<div class="border container" style="padding:30px;">
+    <form action="/" method="post">
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Car.Name"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Car.Name" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Car.Owner"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Car.Owner" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Car.RegisNum"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Car.RegisNum" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                @*<input type="submit" value="Create" class="btn btn-primary form-control" />*@
+                <input type="submit" value="Create" class="btn btn-primary form-control" />
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control" >Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kuliah\\PWEB\\quiz2\\quiz2\\quiz2\\quiz2.csproj": {}
+    "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {}
   },
   "projects": {
-    "E:\\Kuliah\\PWEB\\quiz2\\quiz2\\quiz2\\quiz2.csproj": {
+    "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kuliah\\PWEB\\quiz2\\quiz2\\quiz2\\quiz2.csproj",
+        "projectUniqueName": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
         "projectName": "quiz2",
-        "projectPath": "E:\\Kuliah\\PWEB\\quiz2\\quiz2\\quiz2\\quiz2.csproj",
+        "projectPath": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
         "packagesPath": "C:\\Users\\afiff\\.nuget\\packages\\",
-        "outputPath": "E:\\Kuliah\\PWEB\\quiz2\\quiz2\\quiz2\\obj\\",
+        "outputPath": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\afiff\\AppData\\Roaming\\NuGet\\NuGet.Config",

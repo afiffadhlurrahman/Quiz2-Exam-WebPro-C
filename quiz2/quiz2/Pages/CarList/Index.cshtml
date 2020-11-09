@@ -1,7 +1,60 @@
 ﻿@page
 @model quiz2.Pages.CarList.IndexModel
-@{
-    ViewData["Title"] = "Index";
-}
 
-<h1>Index Car</h1>
+
+<br />
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-info">Car List</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-info form-control text-white">Create New Car </a>
+    </div>
+
+    <div class="col-12 border p-3 mt-3">
+        <form action="/" method="post">
+            @if(Model.Cars.Count() > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            <label asp-for="Cars.FirstOrDefault().Name"></label>
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(m>=mbox.Cars.FirstOrDefault().Owner)*@
+                            <label asp-for="Cars.FirstOrDefault().Owner"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Cars.FirstOrDefault().RegisNum"></label>
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+                    @foreach(var item in Model.Cars)
+                    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Owner)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.RegisNum)
+                    </td>
+                    <td>
+                        <button class="btn btn-danger btn-sm text-white">Delete</button>
+                        <a class="btn btn-success btn-sm text-white">Edit</a>
+                    </td>
+                </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>No Cars Available</p>
+            }
+        </form>
+    </div>
+</div>

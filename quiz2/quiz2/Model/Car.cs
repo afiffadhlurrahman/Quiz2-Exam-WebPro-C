@@ -14,6 +14,6 @@ namespace quiz2.Model
         [Required]
         public string Name { get; set; }
         public string Owner { get; set; }
-
+        public string RegisNum { get; set; }
     }
 }
