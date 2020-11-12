@@ -23,5 +23,17 @@ namespace quiz2.Pages.CarList
         {
             Cars = await _db.Car.ToListAsync();
         }
+
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var car = await _db.Car.FindAsync(id);
+            if(car == null)
+            {
+                return NotFound();
+            }
+            _db.Car.Remove(car);
+            await _db.SaveChangesAsync();
+            return RedirectToPage("Index");
+        }
     }
 }

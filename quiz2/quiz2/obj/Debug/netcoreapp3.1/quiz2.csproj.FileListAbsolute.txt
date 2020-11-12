@@ -761,3 +761,4 @@ E:\Kuliah\PWEB\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\quiz2.dll
 E:\Kuliah\PWEB\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\quiz2.pdb
 E:\Kuliah\PWEB\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\quiz2.genruntimeconfig.cache
 E:\Kuliah\PWEB\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\CarList\Create.cshtml.g.cs
+E:\Kuliah\PWEB\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\CarList\Edit.cshtml.g.cs
