@@ -16,6 +16,7 @@ namespace quiz2.Pages.CarList
         {
             _db = db;
         }
+        
         [BindProperty]
         public Car Car { get; set; }
         public void OnGet()
@@ -30,7 +31,7 @@ namespace quiz2.Pages.CarList
                 await _db.Car.AddAsync(Car);
                 await _db.SaveChangesAsync();
                 
-                return RedirectToPage("./CarList/Index");
+                return RedirectToPage("Index");
             }
             else
             {
