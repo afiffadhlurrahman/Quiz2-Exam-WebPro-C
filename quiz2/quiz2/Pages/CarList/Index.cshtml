@@ -1,19 +1,30 @@
 ﻿@page
 @model quiz2.Pages.CarList.IndexModel
 
+@using Microsoft.AspNetCore.Identity
+@using quiz2.Areas.Identity.Data
+
+@inject SignInManager<UserApplication> SignInManager
+@inject UserManager<UserApplication> UserManager
+
 
 <br />
 <div class="container row p-0 m-0">
     <div class="col-9">
         <h2 class="text-info">Car List</h2>
     </div>
-    <div class="col-3">
-        <a asp-page="Create" class="btn btn-info form-control text-white">Create New Car </a>
-    </div>
+    @{ 
+        if (SignInManager.IsSignedIn(User))
+        {
+            <div class="col-3">
+                <a asp-page="Create" class="btn btn-info form-control text-white">Create New Car </a>
+            </div>
+        }
+    }
 
     <div class="col-12 border p-3 mt-3">
         <form method="post">
-            @if(Model.Cars.Count() > 0)
+            @if (Model.Cars.Count() > 0)
             {
                 <table class="table table-striped border">
                     <tr class="table-secondary">
@@ -31,7 +42,7 @@
 
                         </th>
                     </tr>
-                    @foreach(var item in Model.Cars)
+                    @foreach (var item in Model.Cars)
                     {
                 <tr>
                     <td>
@@ -43,10 +54,16 @@
                     <td>
                         @Html.DisplayFor(m => item.RegisNum)
                     </td>
-                    <td>
-                        <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm text-white">Delete</button>
-                        <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edit</a>
-                    </td>
+
+                    @{
+                        if (SignInManager.IsSignedIn(User))
+                        {
+                            <td>
+                                <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm text-white">Delete</button>
+                                <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edit</a>
+                            </td>
+                        }
+                    }
                 </tr>
                     }
                 </table>

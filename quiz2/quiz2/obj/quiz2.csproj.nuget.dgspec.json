@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {}
+    "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj": {}
   },
   "projects": {
-    "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {
+    "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
+        "projectUniqueName": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj",
         "projectName": "quiz2",
-        "projectPath": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
-        "packagesPath": "C:\\Users\\afiff\\.nuget\\packages\\",
-        "outputPath": "E:\\Kuliah\\PWEB\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\obj\\",
+        "projectPath": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj",
+        "packagesPath": "C:\\Users\\Ilham Bayhaqi\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\afiff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ilham Bayhaqi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,7 +38,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -55,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -75,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
