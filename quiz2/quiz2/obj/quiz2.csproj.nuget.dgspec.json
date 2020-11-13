@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj": {}
+    "D:\\Akademik ITS\\5. Pemrograman Web\\Quiz 2\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj": {
+    "D:\\Akademik ITS\\5. Pemrograman Web\\Quiz 2\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj",
+        "projectUniqueName": "D:\\Akademik ITS\\5. Pemrograman Web\\Quiz 2\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
         "projectName": "quiz2",
-        "projectPath": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\quiz2.csproj",
-        "packagesPath": "C:\\Users\\Ilham Bayhaqi\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PWeb-C\\Quiz2-Exam-WebPro-C_CobaIlham\\quiz2\\quiz2\\obj\\",
+        "projectPath": "D:\\Akademik ITS\\5. Pemrograman Web\\Quiz 2\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\quiz2.csproj",
+        "packagesPath": "C:\\Users\\Rafid Ferdianto\\.nuget\\packages\\",
+        "outputPath": "D:\\Akademik ITS\\5. Pemrograman Web\\Quiz 2\\Quiz2-Exam-WebPro-C\\quiz2\\quiz2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ilham Bayhaqi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rafid Ferdianto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

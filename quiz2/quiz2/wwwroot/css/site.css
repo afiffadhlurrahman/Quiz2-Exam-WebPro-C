@@ -1,5 +1,23 @@
-﻿.home {
+﻿.article {
     padding: 0;
+}
+
+.about {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.about h1{
+    text-align: left;
+    left: 10pt;
+}
+
+.about img {
+    display: block;
+    width: inherit;
+    height:auto;
 }
 
 .billboard {
@@ -12,20 +30,20 @@
     overflow: hidden;
 }
 
-    .billboard img {
-        height: auto;
-        width: inherit;
-        display: block;
-    }
+.billboard img {
+    height: auto;
+    width: inherit;
+    display: block;
+}
 
-    .billboard .overlay {
-        position: absolute;
-        top: 10%;
-        bottom: 0;
-        left: 5%;
-        right: 0;
-        color: dimgrey;
-    }
+.billboard .overlay {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 5%;
+    right: 0;
+    color: dimgrey;
+}
 
 .comment {
     margin-top: 100pt;
@@ -36,21 +54,21 @@
     overflow: hidden;
 }
 
-    .comment h1 {
-        text-align: center;
-        font-size: 25pt;
-        margin-bottom: 30pt;
-        color: #4b4949;
-    }
+.comment h1 {
+    text-align: center;
+    font-size: 25pt;
+    margin-bottom: 30pt;
+    color: #4b4949;
+}
 
-    .comment .box {
-        width: 27%;
-        height: 130pt;
-        margin: 15pt 0% 0 5%;
-        display: inline-grid;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-        padding: 1.5% 1% 1% 1%;
-    }
+.comment .box {
+    width: 27%;
+    height: 130pt;
+    margin:15pt 0% 0 5%;
+    display: inline-grid;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5% 1% 1% 1%;
+}
 
 
 B {
@@ -133,3 +151,4 @@ body {
     white-space: nowrap;
     line-height: 60px; /* Vertically center the text there */
 }
+
