@@ -1127,7 +1127,6 @@ D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\P
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\CarList\Index.cshtml.g.cs
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -2073,3 +2072,4 @@ D:\Akademik ITS\5. Pemrograman Web\Quiz 2\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\De
 D:\Akademik ITS\5. Pemrograman Web\Quiz 2\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\quiz2.pdb
 D:\Akademik ITS\5. Pemrograman Web\Quiz 2\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\quiz2.genruntimeconfig.cache
 D:\Akademik ITS\5. Pemrograman Web\Quiz 2\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+D:\Github\PWeb-C\Quiz2-Exam-WebPro-C\quiz2\quiz2\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
