@@ -32,13 +32,15 @@ namespace quiz2.Pages.CarList
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (ModelState.IsValid && _userManager.GetUserName(User) == Car.Creator)
+            if (ModelState.IsValid)
             {
                 var CarFromDb = await _db.Car.FindAsync(Car.Id);
-                CarFromDb.Name = Car.Name;
-                CarFromDb.Owner = Car.Owner;
-                CarFromDb.RegisNum = Car.RegisNum;
-
+                if (_userManager.GetUserName(User) == CarFromDb.Creator)
+                {
+                    CarFromDb.Name = Car.Name;
+                    CarFromDb.Owner = Car.Owner;
+                    CarFromDb.RegisNum = Car.RegisNum;
+                }
                 await _db.SaveChangesAsync();
 
                 return RedirectToPage("Index");
