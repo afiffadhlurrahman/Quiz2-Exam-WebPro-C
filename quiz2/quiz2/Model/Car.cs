@@ -15,5 +15,6 @@ namespace quiz2.Model
         public string Name { get; set; }
         public string Owner { get; set; }
         public string RegisNum { get; set; }
+        public string Creator { get; set; }
     }
 }
